@@ -1,0 +1,46 @@
+$color-primary: #d1622f;
+$color-secondary: #1cdce3;
+$color-black: rgb(17, 16, 16);
+$color-white: white;
+
+body {
+  background-color: $color-primary;
+  color: white;
+}
+
+//mixins
+@mixin coolBorder($borderColor) {
+  border: 1px solid $borderColor;
+  border-radius: 5px;
+  padding: 20px 40px;
+  color: red;
+}
+
+// @mixin coolBorder($color, $radius, $thickness) {
+//   border: $thickness solid $color;
+//   border-radius: $radius;
+// }
+
+.navigation {
+  .nav-list {
+    list-style: none;
+    .nav-list_item {
+      padding: 5px 10px;
+      display: inline-block;
+      background-color: $color-secondary;
+      @include coolBorder($color-white);
+
+      &:hover {
+        // background-color : darken($color-secondary, 30%);
+        background-color: lighten($color-secondary, 30%);
+      }
+    }
+  }
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: $color-secondary;
+  @include coolBorder(#666);
+}

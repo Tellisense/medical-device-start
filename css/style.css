@@ -1,0 +1,32 @@
+body {
+  background-color: #d1622f;
+  color: white;
+}
+
+.navigation .nav-list {
+  list-style: none;
+}
+.navigation .nav-list .nav-list_item {
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #1cdce3;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px 40px;
+  color: red;
+}
+.navigation .nav-list .nav-list_item:hover {
+  background-color: #a4f1f4;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: #1cdce3;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 20px 40px;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
