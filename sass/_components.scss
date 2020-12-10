@@ -112,6 +112,28 @@ align-items: center;
 &__user-name {
   margin-right: 1.5rem;
 }
+}
 
+
+/////side-nav
+.side-nav {
+font-size: 1.4rem;
+list-style: none;
+margin-top: 3.5rem;
+
+
+&__item {
+
+}
+
+&__icon {
+ width: 1.75rem;
+ height: 1.75rem;
+ margin-right: 2rem;
+fill: var(--color-white);
+
+
+
+}
 
 }
