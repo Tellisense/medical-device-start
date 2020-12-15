@@ -135,6 +135,7 @@ position: relative;
 
 @media only screen and (max-width: $bp-medium){
   flex: 1;
+
 }
 
 }
@@ -192,5 +193,30 @@ fill: var(--color-white);
 
   @media only screen and (max-width: $bp-medium) {
    display: none;
+  }
+}
+
+.gallery {
+  display: flex;
+
+
+ &__photo {
+   width: 100%;
+   display: block;
+ }
+
+
+
+}
+
+.overview {
+  display: flex; 
+
+  &__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+     white-space: nowrap;
   }
 }
