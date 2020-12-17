@@ -331,3 +331,32 @@ box-shadow: none;
 }
 
 
+.list {
+  list-style: none;
+  margin: 3rem 0;
+  padding: 3rem 0;
+border-top: var(--line);
+border-bottom: var(--line);
+display: flex;
+flex-wrap: wrap;
+
+
+ &__item {
+    // flex-grow: 0;
+    // flex-shrink: 0;
+    // flex-basis: 50%;
+    flex: 0 0 50%;
+    margin-bottom: 0.7rem;
+ }
+
+
+ &__item:before {
+  content: "";
+  
+
+
+ }
+
+}
+
+
